@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_browse_events"
+            android:icon="@drawable/ic_action_name"
+            android:title="BROWSE EVENTS" />
+        <item
+            android:id="@+id/my_agenda"
+            android:icon="@drawable/ic_action_agenda"
+            android:title="MY AGENDA" />
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_hintuser"
+            android:title="MY PROFILE" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_action_notification"
+            android:title="NOTIFICATIONS" />
+        <item
+            android:id="@+id/nav_directmessage"
+            android:icon="@drawable/ic_action_chat"
+            android:title="DIRECT MESSAGE" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="LOGOUT" />
+    </group>
+
+</menu>

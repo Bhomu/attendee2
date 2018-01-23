@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialogcorner">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/loginaction"
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="-80dp"
+            android:tint="#6dc14b"
+            app:srcCompat="@drawable/circle" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-45dp"
+            android:layout_marginTop="56dp"
+            android:alpha="0.5"
+            android:tint="#00a1df"
+            app:srcCompat="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView12"
+            android:layout_marginRight="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@string/font_family_main"
+            android:text="John Smith"
+            android:textColor="@color/colorText2"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView22"
+            android:layout_below="@+id/textView22"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView12"
+            android:fontFamily="@string/font_family_main"
+            android:text="Managing Director"
+            android:textColor="@color/colorText2"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView23"
+            android:layout_below="@+id/textView23"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView12"
+            android:fontFamily="@string/font_family_main"
+            android:text="Wipro"
+            android:textColor="@color/colorText2"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout4"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@string/font_family_main"
+            android:text="Attendee"
+            android:textColor="@color/colorText2"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView25"
+            android:layout_marginStart="45dp"
+            android:layout_toEndOf="@+id/textView25"
+            android:fontFamily="@string/font_family_main"
+            android:text="VIP"
+            android:textColor="@color/approval"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/textView25"
+            android:layout_below="@+id/textView25"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/qrcode" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout5"
+        android:background="@color/switchk"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:text="Downnload"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+
+            app:srcCompat="@drawable/line" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:fontFamily="@string/font_family_main"
+            android:text="Done"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="25dp" />
+    </LinearLayout>
+</RelativeLayout>

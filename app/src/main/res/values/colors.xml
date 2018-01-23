@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="loginaction">#ffd929</color>
+    <color name="hint">#666666</color>
+    <color name="switchk">#6dc14b</color>
+    <color name="forgot">#00a2e0</color>
+    <color name="bottomaction">#f3f3f3</color>
+    <color name="colorText2">#333333</color>
+    <color name="colorStroke">#c8c8c8</color>
+    <color name="approval">#ef3341</color>
+</resources>

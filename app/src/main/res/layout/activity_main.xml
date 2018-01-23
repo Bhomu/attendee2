@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="@string/login"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logintext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:text="Navigation Activity"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/calenderview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNavigate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Calender"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/approval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calenderview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Approval" />
+
+    <TextView
+        android:id="@+id/Text_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/approval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Registrationtype" />
+</RelativeLayout>
